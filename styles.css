@@ -160,3 +160,12 @@ body{background:var(--paper);color:var(--ink)}
 .about-image{transform:none}
 .project-grid>*{min-width:0}
 
+/* Tie the designer introduction into the site’s blush palette while keeping it distinct from the white work section. */
+.about{background:var(--wash)}
+.about-image{background:#f3e9e8;box-shadow:0 14px 34px rgba(48,40,49,.08)}
+.about-copy .eyebrow{color:#83556b}
+.about-copy h2 em{color:#83556b}
+.about-copy>p:not(.eyebrow){color:#5f555b}
+.skills span{background:rgba(255,253,252,.68);border-color:rgba(90,65,80,.2)}
+
+
