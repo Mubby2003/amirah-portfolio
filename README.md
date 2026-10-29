@@ -1,25 +1,15 @@
-# Mirah Visuals — portfolio website
+# Mirah Visuals
 
-A responsive, single-page portfolio for Adeshina Amirah Titilayo, a graphic designer based in Ibadan, Nigeria. The site features eleven selected designs with concise project case studies, category filters, an introduction, design approach and direct contact links.
+A responsive graphic design portfolio for Adeshina Amirah Titilayo, based in Ibadan, Nigeria. It presents selected brand, food, beauty and fashion projects with concise case studies and direct contact links.
 
-## Preview
+## View the site
 
-Open `index.html` in a browser. The site is static and has no build step or runtime dependencies.
+https://mubby2003.github.io/amirah-portfolio/
 
-## Before publishing
+The static site is published with GitHub Pages through the workflow in `.github/workflows/pages.yml`.
 
-- Confirm the public phone number, WhatsApp link, email address and location.
-- Review the biography, project names and descriptions.
-- Replace the project crops with original full-resolution design exports when available.
-- Add final project URLs to the open graph image metadata and set a canonical URL once a domain is selected.
-- Confirm the designer would like the portrait and all displayed artwork published.
+## Project notes
 
-The case studies describe visible design intent and deliverable types; they do not claim measured campaign results or client outcomes. Project artwork is extracted from the supplied portfolio PDF and shown in full within each gallery frame.
+The portfolio includes category filters, project detail views, a designer introduction, design approach and contact options. The project descriptions explain the visible creative direction and deliverables; they do not claim measured campaign results.
 
-
-## Publishing
-
-Planned GitHub Pages address: https://mubby2003.github.io/amirah-portfolio/
-
-The `main` branch deploys through GitHub Actions in `.github/workflows/pages.yml`.
-
+Open Graph and social sharing metadata are set in `index.html`, with the social preview image in `assets/og-cover.jpg`.
